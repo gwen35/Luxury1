@@ -58,12 +58,12 @@ class Main {
         Commentaire c1 = new Commentaire("Alice", "Super ville avec beaucoup de culture !");
         Commentaire c2 = new Commentaire("Bob", "J'adore la nourriture ici.");
 
-        // Ajouter commentaires aux villes
+      
         paris.ajouterCommentaire(c1);
         paris.ajouterCommentaire(c2);
 
-        // Afficher commentaires
+      
         paris.afficherCommentaires();
-        lyon.afficherCommentaires(); // Aucun commentaire pour Lyon
+        lyon.afficherCommentaires(); 
     }
 }
