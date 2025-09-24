@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CityComments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CityComments</h1>
+        
+        <!-- Barre de recherche -->
+        <input type="text" id="searchInput" placeholder="Rechercher une ville...">
+        <button onclick="rechercherVille()">Rechercher</button>
+        
+        <!-- Résultat -->
+        <div id="villeContainer" class="ville-container">
+            <h2 id="villeNom"></h2>
+            <div id="commentairesList"></div>
+            
+            <!-- Ajouter un commentaire -->
+            <h3>Ajouter un commentaire :</h3>
+            <input type="text" id="auteur" placeholder="Votre nom">
+            <input type="text" id="texteCommentaire" placeholder="Votre commentaire">
+            <button onclick="ajouterCommentaire()">Publier</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
